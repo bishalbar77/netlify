@@ -1,6 +1,6 @@
 {
   "name": "inconnect",
-  "homepage": "http://insellers.github.io/inconnect/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
