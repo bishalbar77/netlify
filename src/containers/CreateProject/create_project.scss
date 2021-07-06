@@ -1,0 +1,34 @@
+.companyCreateProject {
+  .createProjectPaper {
+    margin: 1rem auto;
+
+    .createProjectTabs {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .product,
+    .service {
+      .productHeadingContainer,
+      .serviceHeadingContainer {
+        text-align: center;
+      }
+      .inputField {
+        width: 100%;
+      }
+      .fileUploadButton {
+        height: 100%;
+        background: #206ba4;
+      }
+      .productButton,
+      .serviceButton {
+        text-align: center;
+        .submitButton {
+          background: #206ba4;
+          padding: 1rem 3rem;
+        }
+      }
+    }
+  }
+}

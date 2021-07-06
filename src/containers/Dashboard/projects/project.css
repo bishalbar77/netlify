@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.table-root {
+    display: "flex";
+    margin-top: "30px";
+    overflow-x: "hide";
+}
+
+.table-heading {
+    font-size: 24px;
+    color: #2e4a66;
+    margin-bottom: 5px;
+}
+
+.paper-text {
+    width: "100%";
+    margin-bottom: "10px";
+}

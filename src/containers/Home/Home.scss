@@ -1,0 +1,89 @@
+.root {
+  min-height: 77vh;
+  height: 100%;
+  text-align: center;
+  flex-grow: 1;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.homepage {
+  .paper {
+    text-align: center;
+    padding: 30px;
+    margin: 20px auto;
+  }
+
+  .spacing {
+    margin: 10px !important;
+  }
+
+  .buttons {
+    margin: 5px 10px !important;
+  }
+
+  .paragraph {
+    margin: auto 10% !important;
+  }
+
+  .image {
+    margin: auto;
+    max-width: 400px;
+    width: auto;
+    height: auto;
+  }
+  .img {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  /*Container*/
+  .connector-container,
+  .company-container {
+    .images {
+      margin: auto;
+      max-width: 120px;
+      width: auto;
+      max-height: 100px;
+      height: auto;
+    }
+    .headings {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .inner-paper {
+      width: -webkit-fill-available;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-bottom: 1px solid #206ba4;
+    }
+    .icons {
+      color: #206ba4;
+      font-size: 50px;
+    }
+    .inner-paper:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 655px) and (max-width: 1080px) {
+  .connector-container,
+  .company-container {
+    .icons {
+      font-size: 38px !important;
+    }
+  }
+}
+
+@media (max-width: 654px) {
+  .homepage {
+    .headings {
+      font-size: 1.2rem !important;
+    }
+  }
+  .buttons {
+    margin: 10px 4px !important;
+  }
+}

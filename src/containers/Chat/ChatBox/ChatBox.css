@@ -1,0 +1,22 @@
+.users-list{
+    color:#fff;
+    max-height: 61vh;
+    min-height: 61vh;
+    overflow: auto;
+}
+
+.users-list::-webkit-scrollbar{
+    width:0.3rem;
+}
+
+.users-list::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px;
+}
+.search-box input{
+    z-index: 1;
+}
+
+.search-box fieldset {
+    background-color: #fff;
+}

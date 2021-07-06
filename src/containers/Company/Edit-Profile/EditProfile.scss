@@ -1,0 +1,49 @@
+.edit-profile {
+  font-family: 'Quicksand',sans-serif;
+  min-height: 77vh;
+  height: 100%;
+  flex-grow: 1;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  .paper {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #666666;
+  }
+
+  .card-content {
+    padding: 8px !important;
+  }
+
+  .document-container {
+    margin: 0 !important;
+  }
+
+  .input-fields {
+    width: 100%;
+
+    label{
+      color: #000000 !important;
+      font-weight: bold !important;
+    }
+    input{
+      color: #000000 !important;
+
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+  }
+
+  .pincode{
+    margin-top: 13px;
+  }
+
+
+}
